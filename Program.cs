@@ -26,8 +26,17 @@ if (a > b)
 }
 else
 {
-    Console.WriteLine("Максимальное число:" + b);
+    if (b > c)
+    {
+        Console.WriteLine("Максимальное число:" + b);
+    }
+    else
+    {
+        Console.WriteLine("Максимальное число:" + c);
+    }
+    
 }
+
 
 a = int.Parse(Console.ReadLine()!);
 if (a % 2 == 0)
